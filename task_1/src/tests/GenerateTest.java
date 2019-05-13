@@ -1,11 +1,12 @@
 package tests;
+
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static source.Main.generate;
+import static com.company.Main.generate;
 
 public class GenerateTest {
 

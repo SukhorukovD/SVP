@@ -1,7 +1,8 @@
-package source;
+package com.company;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
+
 import tests.*;
 
 import java.util.*;
@@ -13,7 +14,7 @@ public class Main {
 
     private static IllegalArgumentException notIntegerException
             = new IllegalArgumentException("Wrong Format. Must be strongly int.");
-			
+
     private static IllegalArgumentException zeroOrLessInputException
             = new IllegalArgumentException("Wrong Format. Must be positive integer bigger than zero.");
 
