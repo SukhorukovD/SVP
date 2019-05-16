@@ -14,7 +14,6 @@ public class Main {
 
     private static IllegalArgumentException notIntegerException
             = new IllegalArgumentException("Wrong Format. Must be strongly int.");
-
     private static IllegalArgumentException zeroOrLessInputException
             = new IllegalArgumentException("Wrong Format. Must be positive integer bigger than zero.");
 
